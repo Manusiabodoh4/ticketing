@@ -5,6 +5,7 @@
     "name":"Reza Andriansyah",
     "id_department":"1e78e3b5-bcfc-43b9-968c-48a00af43c88",
     "name_departnemt":"Department IT",
-    "photo" : "https://randomuser.me/api/portraits/men/64.jpg"
+    "photo" : "https://randomuser.me/api/portraits/men/64.jpg",
+    "address":"Bekasi"
   }
 }

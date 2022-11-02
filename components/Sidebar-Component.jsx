@@ -56,13 +56,13 @@ export default function SidebarComponent({title, description, children}){
             <div className="flex flex-wrap w-full justify-center mt-4 bg-white hover:bg-gray-100 py-4 cursor-pointer" onClick={()=>setIsHide(false)}>
               <FiChevronRight size={30}></FiChevronRight>            
             </div>             
-            <div onClick={()=>handlerLink("/home")} className="flex flex-wrap w-full justify-center mt-4 bg-white hover:bg-gray-100 py-4 cursor-pointer">
+            <div onClick={()=>handlerLink("/")} className="flex flex-wrap w-full justify-center mt-4 bg-white hover:bg-gray-100 py-4 cursor-pointer">
               <AiOutlineHome size={30}></AiOutlineHome>            
             </div>
             <div onClick={()=>handlerLink("/profile")} className="flex flex-wrap w-full justify-center mt-4 bg-white hover:bg-gray-100 py-4 cursor-pointer">
               <AiOutlineUser size={30}></AiOutlineUser>
             </div>
-            <div onClick={()=>handlerLink("/produk")} className="flex flex-wrap w-full justify-center mt-4 bg-white hover:bg-gray-100 py-4 cursor-pointer">
+            <div onClick={()=>handlerLink("/ticket")} className="flex flex-wrap w-full justify-center mt-4 bg-white hover:bg-gray-100 py-4 cursor-pointer">
               <AiOutlineCodepen size={30}></AiOutlineCodepen>            
             </div>            
          
@@ -108,7 +108,7 @@ export default function SidebarComponent({title, description, children}){
       </div>
 
       <div className="block md:hidden">
-        <div className="flex-1 md:p-4">
+        <div className="flex-1 md:p-4 mb-20">
           {children}
         </div>
         <div className="fixed w-full border-t border-gray-600 bottom-0">
