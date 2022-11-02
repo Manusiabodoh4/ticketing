@@ -1,0 +1,71 @@
+{
+
+  "ticket":[
+    {
+      "id":"5aece8ec-5e57-42ee-aa6e-ed8f3c3d3028",
+      "name_department":"Departement Keuangan",
+      "title":"Konfirmasi data keuangan",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu cursus euismod quis viverra. Nulla porttitor massa id neque aliquam vestibulum morbi blandit cursus.",
+      "sender":{
+        "name":"Reza Andriansyah",
+        "photo":"https://randomuser.me/api/portraits/men/64.jpg"
+      },
+      "created":"02-11-2023",
+      "prioritas":"High",
+      "status":"Requested"
+    },
+    {
+      "id":"93f8f7ca-fa24-4ed0-847d-9758b55e2834",
+      "name_department":"Departement HR",
+      "title":"Konfirmasi data karyawan",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu cursus euismod quis viverra. Nulla porttitor massa id neque aliquam vestibulum morbi blandit cursus.",
+      "sender":{
+        "name":"Amelia Rosa",
+        "photo":"https://randomuser.me/api/portraits/women/3.jpg"
+      },
+      "created":"02-11-2023",
+      "prioritas":"High",
+      "status":"Done"
+    },
+    {
+      "id":"959357fd-20a6-4890-b04d-cc5db82ce141",
+      "name_department":"Departement IT",
+      "title":"Laporan Bug Sistem",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu cursus euismod quis viverra. Nulla porttitor massa id neque aliquam vestibulum morbi blandit cursus.",
+      "sender":{
+        "name":"Rizky Prawira",
+        "photo":"https://randomuser.me/api/portraits/men/7.jpg"
+      },
+      "created":"02-11-2023",
+      "prioritas":"Medium",
+      "status":"Processed"
+    },
+    {
+      "id":"1ff4c3c6-e9bc-46cf-80b1-a351e6722b84",
+      "name_department":"Departement Keuangan",
+      "title":"Konfirmasi data keuangan",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu cursus euismod quis viverra. Nulla porttitor massa id neque aliquam vestibulum morbi blandit cursus.",
+      "sender":{
+        "name":"Adhitya Hadi",
+        "photo":"https://randomuser.me/api/portraits/men/13.jpg"
+      },
+      "created":"02-11-2023",
+      "prioritas":"Medium",
+      "status":"Requested"
+    },
+    {
+      "id":"7b0aeba9-cf07-42ce-8a3d-29f487617250",
+      "name_department":"Departement Security",
+      "title":"Konfirmasi kedatanagan barang",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu cursus euismod quis viverra. Nulla porttitor massa id neque aliquam vestibulum morbi blandit cursus.",
+      "sender":{
+        "name":"Ramadhan Wahyu",
+        "photo":"https://randomuser.me/api/portraits/men/17.jpg"
+      },
+      "created":"02-11-2023",
+      "prioritas":"Low",
+      "status":"Canceled"
+    }
+  ]
+
+}

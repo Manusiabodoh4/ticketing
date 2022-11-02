@@ -1,0 +1,22 @@
+{
+
+  "department" : [
+    {
+      "id" : "1e78e3b5-bcfc-43b9-968c-48a00af43c88",
+      "name" : "Departement IT"
+    },
+    {
+      "id" : "5a1be9c8-aa1c-4dac-8905-fe48c82ef3ba",
+      "name" : "Departement Security"
+    },
+    {
+      "id" : "722481f5-9fd1-45e1-9b59-ed6038e68d81",
+      "name" : "Departement HR"
+    },
+    {
+      "id" : "3ab39a83-0300-4bb6-8aa5-ed38a50cd7ec",
+      "name" : "Departement Keuangan"
+    }
+  ]
+
+}

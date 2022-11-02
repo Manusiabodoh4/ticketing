@@ -1,0 +1,18 @@
+{
+
+  "prioritas":[
+    {
+      "id":"be64d31c-f32d-4a48-bde5-432d9dd941e9",
+      "name":"High"
+    },
+    {
+      "id":"5f60e29f-1031-403f-9df2-e4946c89982b",
+      "name":"Medium"
+    },
+    {
+      "id":"5109ab7e-6cbd-42c9-872c-1b0163771193",
+      "name":"Low"
+    }
+  ]
+
+}

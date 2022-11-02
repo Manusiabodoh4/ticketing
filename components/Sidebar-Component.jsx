@@ -1,9 +1,10 @@
-import {useState} from 'react'
+import {useEffect, useState} from 'react'
 import loadable from '@loadable/component'
 import {FaChevronLeft} from 'react-icons/fa'
 import {FiChevronRight} from 'react-icons/fi'
 import {AiOutlineUser, AiOutlineHome, AiOutlineCodepen} from 'react-icons/ai'
 import { useRouter } from 'next/router';
+import { useWindowDimensions } from '../hooks'
 
 const Head = loadable(()=>import("../components/Head-Component"))
 const Link = loadable(()=>import('next/link'))
@@ -13,11 +14,19 @@ export default function SidebarComponent({title, description, children}){
   
   const {push} = useRouter()
 
+  const { width } = useWindowDimensions()
   const [isHide, setIsHide] = useState(false);    
 
   const handlerLink = (href) => {
     push(href)
-  } 
+  }   
+
+  useEffect(()=>{
+    if (width <= 1006) {
+      setIsHide(true)
+      return
+    }
+  },[width])
 
   return(
     <>
@@ -93,12 +102,13 @@ export default function SidebarComponent({title, description, children}){
           <div className="flex-1 bg-gray-200 p-6">
             {children}
           </div>
+
         </div>
 
       </div>
 
       <div className="block md:hidden">
-        <div className="flex-1 p-4">
+        <div className="flex-1 md:p-4">
           {children}
         </div>
         <div className="fixed w-full border-t border-gray-600 bottom-0">

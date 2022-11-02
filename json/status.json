@@ -1,0 +1,22 @@
+{
+
+  "status":[
+    {
+      "id":"e8baba96-2d64-406b-8f03-796ee7fc8a8b",
+      "name":"Requested"
+    },
+    {
+      "id":"84983aee-7751-4822-9c50-dd2882f6cc57",
+      "name":"Processed"
+    },
+    {
+      "id":"883666c9-94ff-481e-9ec7-6e601a3c51e1",
+      "name":"Done"
+    },
+    {
+      "id":"15ef7ebf-e12e-4b96-9980-e0a8d94a1f22",
+      "name":"Canceled"
+    }
+  ]
+
+}
