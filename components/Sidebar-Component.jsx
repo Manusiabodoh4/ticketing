@@ -42,7 +42,7 @@ export default function SidebarComponent({title, description, children}){
             </div>
           </Link>
           <div className="flex align-middle space-x-4">
-          <Link href="/login">
+          <Link href="/signup">
             <button className="bg-red-400 hover:bg-red-500 text-white text-xs font-semibold px-4 py-2 rounded">
               Logout
             </button>
