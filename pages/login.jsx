@@ -58,9 +58,9 @@ function SignUp() {
                   </div>
                 </form>
 
-                <div className="text-gray-600 text-center mt-6">
+                {/* <div className="text-gray-600 text-center mt-6">
                   Already have an account? <Link href='/signup' className='text-center text-sm text-blue-700'>SignUp</Link>
-                </div>
+                </div> */}
 
               </div>
             </div>
